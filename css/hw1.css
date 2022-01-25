@@ -1,0 +1,119 @@
+body {
+	padding: .5%;
+	margin: .5%;
+}
+header {
+	margin: 0px;
+	background-image: url("../images/flywheel.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #888888;
+	padding: 15px;
+}
+nav {
+	text-align: center;
+}
+
+header a {
+	display: inline-block;
+	width: 18%;
+	font-size: 150%;
+	background-color: #ffffff;
+	opacity: .5;
+	text-decoration: none;
+	text-align: center;
+	margin: 20px 20px;
+    padding: 1%;
+    border-radius: 4px;
+}
+.active{
+	opacity: 1;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: #ffffff;
+	text-align: center;
+	margin: 0;
+}
+aside {
+	background-color: #378805;
+}
+
+.left {
+	width: 20%;	
+	float: left;
+	background-color: #6F9940;
+	height: 100vh;
+}
+img {
+	width: 75%;
+	border: solid;
+	border-color: #000000;
+	display: inline-block;
+	margin: 10%;
+}
+section {
+	background-color: #ffffff;
+	float: right;
+
+}
+.right {
+	width: 80%;
+	float: right;
+	padding: 10px;
+	box-sizing: border-box;
+}
+h2 {
+	color: #000000;
+	/*padding: 0;
+    margin: 0;*/
+}
+
+/*format table*/
+
+table {
+    margin-left: auto;
+	margin-right: auto;
+   /* opacity: .8;*/
+    font-family: "Gill Sans", sans-serif;
+   }
+tr{
+	opacity: .8;
+
+}
+
+th{
+	/*ADD PRIFEXES!!!!*/
+	background: linear-gradient(#A6F83D 2px, #77B428);
+	line-height: 30px;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-top: 2px solid #628930;
+	border-right: 2px solid #628930;
+	border-bottom: 5px solid #628930;
+	border-left: 2px solid #628930;
+	color: #ffffff;
+	padding-left: 10px;
+}
+
+/*background-color for cells*/
+td {
+	background-color: #C1E1C1;
+	border-radius: 2px;
+	padding: 10px;
+	text-shadow: 1px 1px 1px #628930;
+}
+tr > td:first-child{
+	width: 40%;
+	height: 30px;
+}
+tr > td:not(td:first-child){
+	width: 20%;
+	text-align: center;
+}
+tr > th:first-child{
+	text-align: left;
+}
+tr:hover:not(:first-child) {
+	opacity: 1;
+}
